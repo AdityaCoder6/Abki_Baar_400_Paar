@@ -1,0 +1,39 @@
+.number-number {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  background-color: #ffffff;
+}
+.number-root-class-name1 {
+  background-color: #ffd000;
+}
+.number-root-class-name2 {
+  background-color: #ff7b00;
+}
+.number-root-class-name3 {
+  background-color: var(--dl-color-gray-700);
+}
+@media(max-width: 991px) {
+  .number-root-class-name3 {
+    background-color: var(--dl-color-gray-700);
+  }
+}
+@media(max-width: 767px) {
+  .number-root-class-name3 {
+    background-color: #000;
+  }
+}
+@media(max-width: 479px) {
+  .number-number {
+    width: 40px;
+    height: 40px;
+  }
+  .number-text {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .number-root-class-name3 {
+    background-color: #9c9c9c;
+  }
+}

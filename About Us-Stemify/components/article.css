@@ -1,0 +1,94 @@
+.article-article {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: 500px;
+  align-items: center;
+  flex-direction: column;
+}
+.article-content {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.article-heading {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.article-header {
+  color: rgb(53, 43, 42);
+  width: 100%;
+  font-size: 40px;
+  max-width: 800px;
+  font-style: normal;
+  font-family: Cormorant Infant;
+  font-weight: 600;
+  line-height: 20px;
+}
+.article-text {
+  font-size: 1.8rem;
+  align-self: flex-start;
+  text-align: left;
+  font-family: "Lora";
+}
+.article-root-class-name1 {
+  margin-right: 65px;
+}
+
+.article-root-class-name3 {
+  max-width: var(--dl-size-size-maxwidth);
+  margin-top: var(--dl-space-space-sixunits);
+  margin-left: -200px;
+  margin-right: 0px;
+}
+
+
+
+@media(max-width: 991px) {
+  .article-header {
+    line-height: 30px;
+  }
+  .article-root-class-name1 {
+    width: var(--dl-size-size-xxlarge);
+    margin-right: 100px;
+  }
+}
+@media(max-width: 767px) {
+  .article-content {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .article-header {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .article-root-class-name1 {
+    width: 100%;
+    max-width: 100%;
+    margin-right: var(--dl-space-space-threeunits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .article-root-class-name2 {
+    max-width: 100%;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .article-root-class-name3 {
+    max-width: 100%;
+  }
+  .article-root-class-name4 {
+    max-width: 100%;
+  }
+  .article-root-class-name {
+    max-width: 100%;
+    margin-top: var(--dl-space-space-twounits);
+  }
+  .article-root-class-name5 {
+    max-width: 100%;
+    margin-top: var(--dl-space-space-twounits);
+  }
+}

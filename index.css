@@ -15,6 +15,10 @@
     font-size: 1rem;
     width: 100vw;
   }
+  body{
+  width: 100vw;
+  overflow-x:hidden;
+  }
 }
 .branding-branding {
   gap: var(--dl-space-space-halfunit);
